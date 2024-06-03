@@ -1,0 +1,98 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 30px;
+  padding: 20px 40px 15px 40px;
+  box-shadow: 0 3px 3px #d3d3d3;
+  min-width: 815px;
+
+  font-weight: 600;
+
+  background-color: white;
+}
+
+.header img {
+  height: 25px;
+  width: 25px;
+}
+
+.header .profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 20px;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon {
+  min-width: 25px;
+}
+
+.search-bar {
+  height: 25px;
+  background-color: #e2e8f0;
+  border-radius: 30px;
+}
+
+.profile {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+
+  font-size: 1.3rem;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+  align-self: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome .profile-pic {
+  width: 60px;
+  height: 60px;
+}
+
+.welcome {
+  display: flex;
+  gap: 20px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome p {
+  font-size: 0.8rem;
+}
+
+.welcome h3 {
+  font-size: 1.4rem;
+}
+
+.actions {
+  display: flex;
+  gap: 30px;
+}
+
+.action-item {
+  width: 102px;
+  padding: 7px 26px;
+  border-radius: 50px;
+  border: none;
+
+  color: white;
+  background-color: #1992d4;
+}

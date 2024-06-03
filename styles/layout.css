@@ -5,6 +5,8 @@
 
   width: 100vw;
   height: 100vh;
+
+  background-color: #E2E8F0;
 }
 
 .nav {
@@ -13,13 +15,4 @@
 
 .header {
   grid-column: 2 / 4;
-  background-color: red;
-}
-
-.projects {
-  background-color: yellow;
-}
-
-.sidebar {
-  background-color: green;
 }
