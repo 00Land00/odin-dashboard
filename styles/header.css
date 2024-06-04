@@ -3,12 +3,13 @@
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 30px;
   padding: 20px 40px 15px 40px;
-  box-shadow: 0 3px 3px #d3d3d3;
+  box-shadow: 0 3px 5px #afafaf;
   min-width: 815px;
 
   font-weight: 600;
 
   background-color: white;
+  z-index: 1;
 }
 
 .header img {

@@ -1,12 +1,12 @@
 .container {
   display: grid;
-  grid-template-columns: 260px 2.5fr 1fr;
+  grid-template-columns: 260px auto 300px;
   grid-template-rows: 150px;
 
   width: 100vw;
   height: 100vh;
 
-  background-color: #E2E8F0;
+  background-color: #e2e8f0;
 }
 
 .nav {
@@ -15,4 +15,8 @@
 
 .header {
   grid-column: 2 / 4;
+}
+
+.sidebar {
+  background-color: green;
 }
