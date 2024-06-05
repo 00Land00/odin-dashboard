@@ -1,4 +1,4 @@
-.section {
+.projects {
   min-width: 525px;
   padding: 25px 24px 25px 17px;
 
@@ -17,17 +17,21 @@
 }
 
 .card {
+  box-shadow: 0 3px 5px #afafaf;
+  border-radius: 7px;
+
+  background-color: white;
+}
+
+.projects .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
   height: 215px;
   padding: 30px 30px 30px 25px;
+  
   border-left: 7px solid #ffc107;
-  box-shadow: 0 3px 5px #afafaf;
-  border-radius: 7px;
-
-  background-color: white;
 }
 
 .card-title {

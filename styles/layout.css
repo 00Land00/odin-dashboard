@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 260px auto 300px;
+  grid-template-columns: 260px auto 320px;
   grid-template-rows: 150px;
 
   width: 100vw;
@@ -15,8 +15,4 @@
 
 .header {
   grid-column: 2 / 4;
-}
-
-.sidebar {
-  background-color: green;
 }
