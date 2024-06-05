@@ -9,7 +9,7 @@
 }
 
 .ann:first-child ~ .ann {
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #cccccc;
   padding-top: 15px;
 }
 
